@@ -1,0 +1,46 @@
+
+.live{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.live img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.allItem{
+    border: 1px solid greenyellow;
+    padding: 10px;
+}
+ .allItem .time h6{
+    color: white;
+}
+
+.liveContainer .allItem h6{
+    color: white;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.liveContainer h6{
+    color: rgb(27, 21, 21);
+}
+h3{
+    color: wheat;
+    margin-left: 5px;
+}
+.liveContainer{
+    display: grid;
+    grid-template-columns: repeat(2fr,2fr);
+    
+    
+}

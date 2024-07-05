@@ -1,0 +1,36 @@
+
+.category{
+    width:200px;
+    height: auto;
+    border: 1px solid black;
+    
+   
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(202, 227, 165);
+}
+
+.category img{
+    width: 200px;
+    border-radius: 10px;
+    
+}
+
+.category h6{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+.categoryContainer{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    font-size: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 18px;
+}
